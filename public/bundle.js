@@ -1,5 +1,5 @@
 
-(function(l, i, v, e) { v = l.createElement(i); v.async = 1; v.src = '//' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; e = l.getElementsByTagName(i)[0]; e.parentNode.insertBefore(v, e)})(document, 'script');
+(function(l, i, v, e) { v = l.createElement(i); v.async = 1; v.src = '//' + (location.host || 'localhost').split(':')[0] + ':$35729/livereload.js?snipver=1'; e = l.getElementsByTagName(i)[0]; e.parentNode.insertBefore(v, e)})(document, 'script');
 var app = (function () {
     'use strict';
 
@@ -1507,7 +1507,7 @@ var app = (function () {
     let labelGap = 3;
 
     function instance$1($$self, $$props, $$invalidate) {
-    	
+
 
       const dispatch = createEventDispatcher();
 
@@ -2737,7 +2737,7 @@ var app = (function () {
     let animationStagger = 25;
 
     function instance$6($$self, $$props, $$invalidate) {
-    	
+
 
       let { useNestedElements = true, ripple = true, color = "#ff00aa", circleContent, direction = "left" } = $$props;
       let timeouts = [];
@@ -3121,7 +3121,7 @@ var app = (function () {
     let elementSize$1 = 40;
 
     function instance$7($$self, $$props, $$invalidate) {
-    	
+
 
       let { useNestedElements = true, ripple = true, color = "#ff00aa", circleContent } = $$props;
 
@@ -8701,7 +8701,7 @@ var app = (function () {
     }
 
     function instance$b($$self, $$props, $$invalidate) {
-    	
+
 
       let { name } = $$props;
 

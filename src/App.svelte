@@ -8,7 +8,7 @@
   import { ToggleGroup } from "./components/Toggle";
 </script>
 
-<style>
+<style type="text/scss">
   :global(body) {
     margin: 0;
   }
@@ -20,27 +20,29 @@
     margin-bottom: 20px;
     color: rgba(0, 0, 0, 0.85);
     align-items: center;
-  }
-  .headbar-center {
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 100%;
-    display: flex;
-    align-items: center;
-  }
-  .headbar-link {
-    display: inline-flex;
-    border-radius: 5px;
-    padding: 8px 10px;
-    cursor: pointer;
-    position: relative;
-    font-size: 14px;
+
+      &__center {
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+      }
+
+      &__link {
+        display: inline-flex;
+        border-radius: 5px;
+        padding: 8px 10px;
+        cursor: pointer;
+        position: relative;
+        font-size: 14px;
+      }
   }
 </style>
 
 <div class="headbar">
-  <div class="headbar-center">
-    <div class="headbar-link">
+  <div class="headbar__center">
+    <div class="headbar__link">
       Textfields
       <Ripple color="#000000" />
     </div>

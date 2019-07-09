@@ -85,55 +85,57 @@
     &:hover {
       background: var(--primary-color-dark);
     }
-  }
 
-  .button--disabled {
-    background: var(--disabled-bg-color);
-    color: var(--disabled-text-color);
-    cursor: default;
-    pointer-events: none;
-  }
-
-  .button--raised {
-    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
-      0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-  }
-
-  .button--outlined {
-    background: none;
-    border: 1px solid var(--primary-color-light);
-    color: var(--primary-color);
-
-    &:hover {
-      border-color: var(--primary-color-medium);
-      background: var(--primary-color-soft);
-    }
-    &.button--disabled {
-      border-color: var(--disabled-text-color);
+    &--disabled {
+      background: var(--disabled-bg-color);
       color: var(--disabled-text-color);
+      cursor: default;
+      pointer-events: none;
     }
-  }
 
-  .button--simple {
-    background: none;
-    color: var(--primary-color);
+    &--raised {
+      box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    }
 
-    &:hover {
-      background: var(--primary-color-soft);
+    &--outlined {
+      background: none;
+      border: 1px solid var(--primary-color-light);
+      color: var(--primary-color);
+
+      &:hover {
+        border-color: var(--primary-color-medium);
+        background: var(--primary-color-soft);
+      }
+      &.button--disabled {
+        border-color: var(--disabled-text-color);
+        color: var(--disabled-text-color);
+      }
     }
-    &.button--disabled {
-      color: var(--disabled-text-color);
+
+    &--simple {
+      background: none;
+      color: var(--primary-color);
+
+      &:hover {
+        background: var(--primary-color-soft);
+      }
+      &.button--disabled {
+        color: var(--disabled-text-color);
+      }
     }
-  }
-  .button--small {
-    font-size: 12px;
-    padding: 0 14px;
-    --height: 30px;
-  }
-  .button--large {
-    font-size: 16px;
-    padding: 0 24px;
-    --height: 42px;
+
+    &--small {
+      font-size: 12px;
+      padding: 0 14px;
+      --height: 30px;
+    }
+
+    &--large {
+      font-size: 16px;
+      padding: 0 24px;
+      --height: 42px;
+    }
   }
 </style>
 
