@@ -80,7 +80,7 @@
     color: var(--text-color);
     font-weight: 500;
     border-radius: 4px;
-    text-transform: uppercase;
+      text-transform: uppercase;
 
     &:hover {
       background: var(--primary-color-dark);
